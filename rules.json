@@ -1,0 +1,11 @@
+[ {
+  "id": 6,
+  "priority": 1,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "transform": { "scheme": "https", "host": "oldschool.runescape.wiki" }
+    }
+  },
+  "condition": { "urlFilter": "||oldschoolrunescape.fandom.com", "resourceTypes": ["main_frame"] }
+}]
